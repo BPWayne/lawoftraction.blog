@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+}
+body{
+	font-family: open-sans;
+}
+
+a{
+	color: #eaece5;
+	text-decoration: none;
+	text-shadow: 2px;
+}
+
+.headerbox .sidenav{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 20vw;
+	height: 100vh;
+	background: linear-gradient(to right, #333333, #dd1818);
+	font-size: 30px;
+	text-align: center;
+	line-height: 80px;
+	color: ##d96459;
+
+}
+
+
+.headerbox .main-content{
+width: 80vw;
+margin-left: 20vw;
+text-align: center;
+
+}
+
+.headerbox .sidenav ul li{
+	line-style: none;
+	padding: 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+	transform-box: rotate(25deg);
+	transition: 1s;
+
+}
+
+i{
+	margin-right: 8px;
+}
+#sec2{
+	font-size: 29px;
+	background: black;
+}
